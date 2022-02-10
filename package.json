@@ -1,27 +1,69 @@
 {
   "name": "main",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "Assignment #01",
+  "main": "api.js",
+  "dependencies": {
+    "agent-base": "^6.0.2",
+    "ansi-regex": "^5.0.1",
+    "asynckit": "^0.4.0",
+    "babel-preset-current-node-syntax": "^1.0.1",
+    "browser-process-hrtime": "^1.0.0",
+    "buffer-from": "^1.1.2",
+    "callsites": "^3.1.0",
+    "camelcase": "^5.3.1",
+    "caniuse-lite": "^1.0.30001310",
+    "char-regex": "^1.0.2",
+    "ci-info": "^3.3.0",
+    "cjs-module-lexer": "^1.2.2",
+    "co": "^4.6.0",
+    "collect-v8-coverage": "^1.0.1",
+    "combined-stream": "^1.0.8",
+    "convert-source-map": "^1.8.0",
+    "cssom": "^0.4.4",
+    "cssstyle": "^2.3.0",
+    "decimal.js": "^10.3.1",
+    "dedent": "^0.7.0",
+    "deep-is": "^0.1.4",
+    "deepmerge": "^4.2.2",
+    "delayed-stream": "^1.0.0",
+    "detect-newline": "^3.1.0",
+    "diff-sequences": "^27.5.1",
+    "domexception": "^2.0.1",
+    "electron-to-chromium": "^1.4.68",
+    "emittery": "^0.8.1",
+    "escape-string-regexp": "^1.0.5",
+    "esprima": "^4.0.1",
+    "estraverse": "^5.3.0",
+    "esutils": "^2.0.3",
+    "exit": "^0.1.2",
+    "express": "^4.17.2",
+    "fast-json-stable-stringify": "^2.1.0",
+    "fast-levenshtein": "^2.0.6",
+    "form-data": "^3.0.1",
+    "function-bind": "^1.1.1",
+    "gensync": "^1.0.0-beta.2",
+    "get-package-type": "^0.1.0",
+    "get-stream": "^6.0.1",
+    "glob": "^7.2.0",
+    "globals": "^11.12.0",
+    "graceful-fs": "^4.2.9",
+    "has": "^1.0.3",
+    "html-escaper": "^2.0.2",
+    "jest": "^27.5.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CSYE6225-ZMX/main.git"
+    "url": "git+https://github.com/ZimuXu/main-1.git"
   },
   "author": "",
   "license": "ISC",
-  "type": "module",
   "bugs": {
-    "url": "https://github.com/CSYE6225-ZMX/main/issues"
+    "url": "https://github.com/ZimuXu/main-1/issues"
   },
-  "homepage": "https://github.com/CSYE6225-ZMX/main#readme",
-  "dependencies": {
-    "cookie-parser": "^1.4.6",
-    "cors": "^2.8.5",
-    "express": "^4.17.2",
-    "mongoose": "^6.2.1"
-  }
+  "homepage": "https://github.com/ZimuXu/main-1#readme"
 }
